@@ -73,12 +73,14 @@ footer a {
 }
 
 section {
-    padding: 60ppx;
+    padding: 60px;
 }
 
 .intro {
     text-align: center;
 }
+
+
 
 .intro p {
     line-height: 1.7;
@@ -90,7 +92,7 @@ section {
 
 .steps {
     text-align: center;
-    background: #fce138
+    background: #fce138;
 }
 
 .steps div {
@@ -117,7 +119,7 @@ section {
     font-size: 38px;
 }
 
-.section- title {
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
@@ -196,7 +198,7 @@ section {
 
 .trainer {
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 20px auto;
     background: #024e76;
     color: #fce138;
     overflow: auto;
@@ -236,3 +238,6 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
+
+/* End trainer section */
+
