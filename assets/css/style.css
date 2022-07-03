@@ -25,8 +25,7 @@ header h1 {
     font-size 36px;
     color: #fce138;
     margin: 0; 
-    display: inline;
-    
+    display: inline; 
 }
 
 header a {
@@ -132,6 +131,8 @@ section {
     border-color: #fce138;
 }
 
+/* this is the line under reach out */
+
 .secondary-border {
     border-color: #39a6b2;
 }
@@ -139,20 +140,20 @@ section {
 .section-title {
     font-size: 55px;
     display: inline-block;
-    padding: 0 100px 20px 100px;
+    padding: 20px 100px 20px 100px;
     border-bottom:3px solid;
     margin-bottom: 35px;
     color: #024e76;
 }
 
-/* Hero style start */
+/* Homepage Hero style start */
 
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: relative; 
 }
 
 .hero-form {
@@ -197,7 +198,7 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
- /* hero styles end here */
+ /* homepage hero styles end here */
 
 /* trainers section */
 
@@ -259,6 +260,7 @@ section {
 
 .contact h2 {
     color: #fce138;
+    border-color: #39a6b2;
 }
 
 .contact-info iframe {
