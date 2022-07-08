@@ -17,8 +17,4 @@ https://lernantino.github.io/run-buddy/
 Made with ❤️ by Lacey Aguigam
 
 
-<<<<<<< HEAD
 ### ©️2019 Run Buddy, Inc 
-=======
-### ©️2019 Run Buddy, Inc 
->>>>>>> 77dfcfcea3612ea820620e12b85331fbc04cae06
