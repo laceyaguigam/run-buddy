@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -13,46 +14,47 @@ body {
 
 /* apply styles to <header> */
 
- /* Applies 20px to the top and bottom, then 35px to the left and right */
-
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-header h1 {
+    flex-wrap: wrap;
+  }
+  
+  header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0; 
-    
-}
-
-header a {
-    color: #fce138;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  header a {
     text-decoration: none;
-}
-
-header nav {
+    color: #fce138;
+  }
+  
+  header nav {
     margin: 7px 0;
-} 
-
-header nav ul li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
-header nav ul li a {
-    margin: 0 30px;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-}
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  /* Footer section */
 
 footer {
     background: #fce138;
@@ -77,6 +79,8 @@ footer div {
 footer a {
     color: #024e76
 }
+
+/* content section */
 
 section {
     padding: 60px;
@@ -146,7 +150,7 @@ section {
   }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px; 
@@ -159,7 +163,6 @@ section {
 }
 
 /* this is the line under reach out */
-
 .secondary-border {
     border-color: #39a6b2;
 }
@@ -177,7 +180,7 @@ section {
 /* Homepage Hero style start */
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -198,17 +201,25 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
 .hero-form {
     
     border: 3px solid #024e76;
-    background-color: #fce138;
+   
+    /* this makes the box transparent */
+    background-color: rgba(252,225,56,0.8); 
+   
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    /* gives box rounded edges*/
+    border-radius: 15px;
 }
 
 .hero-form p {
@@ -218,29 +229,35 @@ section {
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
-}
-
-.form-input {
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  
+  .form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76
+    color: #024e76;
     width: 100%;
-    margin-bottom: 15px;
-}
-
-.hero-form label {
+    margin-bottom: 15px; 
+    border-radius: 10px;
+  }
+  
+  .hero-form label {
     margin: 0 5px;
-}
-
-.hero-form button {
-    color: #fce138; 
+  }
+  
+  .hero-form button {
+    color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-}
+    border-radius: 10px;
+  } 
+
  /* homepage hero styles end here */
 
 /* trainers section */
@@ -343,6 +360,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
   }
   
   .contact-form button {
@@ -353,6 +371,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
   }
   
   .contact-info a {
