@@ -2,7 +2,7 @@
 
 
 ## Purpose
-A website that offers fitness training services.
+Application responsiveness is an important part of creating web applications ensuring they can be seen across mutliple devices allowing the application to be more user friendly. Run Buddy is a responsive web application created that allows people find a trainer that best fits their running needs. 
 
 
 ## Built With
@@ -11,7 +11,9 @@ A website that offers fitness training services.
 
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://laceyaguigam.github.io/run-buddy/
+
+<img width="1728" alt="run-buddy-screenshot" src="https://user-images.githubusercontent.com/105749016/219984503-4cee8b9c-bd69-4528-b39b-9f4e3003e0b8.png">
 
 ## Contribution
 Made with ❤️ by Lacey Aguigam
